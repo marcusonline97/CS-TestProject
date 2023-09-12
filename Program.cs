@@ -10,8 +10,8 @@ namespace MyCodeProject
     {
         static void Main(string[] args)
         {
-        
 
+            int = 1;
 
         }
  
