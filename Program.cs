@@ -36,7 +36,7 @@ namespace MyCodeProject
             }
             else if (result == "2") 
             {
-                ReadStoredInfo();
+                ReadStoredInfo(); 
 
                 return true;
               
@@ -79,7 +79,7 @@ namespace MyCodeProject
 
             for (int i = 0; i < Name.Count; i++)
             {
-                Console.WriteLine($"EmployeName: {Name[i]}, Salary: {Salary[i]}"); //Skriver ut användarens information
+                Console.WriteLine($"EmployeName: {Name[i]} | Salary: {Salary[i]}|"); //Skriver ut användarens information
             }
         }
     }
