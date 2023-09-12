@@ -13,6 +13,7 @@ namespace MyCodeProject
 
             int One = 1;
            Console.WriteLine(One);
+            Console.ReadLine();
         }
  
     }
