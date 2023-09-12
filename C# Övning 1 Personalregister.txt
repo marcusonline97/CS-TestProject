@@ -1,0 +1,16 @@
+﻿Uppgift 1
+
+De klasser vi behöver är primar huvud metoden som lagras i main. 
+Sedan kommer vi behöva ha en klass för att sortera självaste informationen som vi tar emot och lagras. Mest troligen i en List eller möjligen Array.
+
+För att göra programmet så robust som möjligt måste programmet kunna klara av otroligt mycket inputs så det jag skulle tänka är att vi ska ha en klass som sköter 
+informationen. Och ha 1 metod för intaget utav information. 
+
+Sedan vore det nog bra att användaren utav programmet ska kunna ha tillgång till uppgifterna i efterhand av att de har fyllts i. 
+Så det vore nog bra med en metod som ser till att programmet printar ut resultaten.
+
+
+
+//Personliga Takeaway: Det var en utmanande uppgift, jag har precis kommit in i Lists och det var rätt utmanande men jag tror att jag fick till det rätt så 
+okej i denna uppgift. Jag vet att det finns en del buggar och sätt jag kan begränsa programmet som vilka input som är tillåtna, att jobba mer på felmeddelanden
+och även bygga upp en renare interface som kan göra det lite lättare i framtiden. 
