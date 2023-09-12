@@ -11,8 +11,8 @@ namespace MyCodeProject
         static void Main(string[] args)
         {
 
-            int = 1;
-
+            int One = 1;
+           Console.WriteLine(One);
         }
  
     }
