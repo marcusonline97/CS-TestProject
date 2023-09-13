@@ -29,6 +29,7 @@ namespace MyCodeProject
             Console.WriteLine("3)Type 3 exit the application");
             string result = Console.ReadLine();
 
+       
             if (result == "1")
             {
                 InputInfo();
@@ -56,16 +57,15 @@ namespace MyCodeProject
 
             Console.Write($" Apply {Named}'s salary \n "); //
             double salary;
-            if(double.TryParse(Console.ReadLine(),out salary))
+            if (!double.TryParse(Console.ReadLine(), out salary))
+            {
+                Console.WriteLine("Incorrect input towards the salary, please try again");
+            }
+            else
             {
                 Salary.Add(salary);
                 Console.Write("Information has been correctly applied!\nYou are now sent back to the registry menu.\n \n"); // Text som bekräftar lyckad inmatning
             }
-            else 
-            {
-              Console.WriteLine("Incorrect input towards the salary, please try again");
-            }
-
         }
 
         private static void ReadStoredInfo() //Vår metod som läser upp förvarade värden ifrån programmet
